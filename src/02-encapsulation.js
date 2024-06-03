@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-class car {
+class Car {
     #brand = '';
     #model = '';
     #year = '';
@@ -50,6 +50,6 @@ class car {
     }
 }
 
-let renaudR5 = new car('renaud', 'R5', '2024', 'black');
+let renaudR5 = new Car('renaud', 'R5', '2024', 'black');
 renaudR5.setColor('white');
 console.log(renaudR5.getColor());

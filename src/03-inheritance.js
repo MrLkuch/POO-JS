@@ -1,3 +1,4 @@
+'use strict';
 class Vehicle {
     constructor(brand, model, year) {
         this.brand = brand;
