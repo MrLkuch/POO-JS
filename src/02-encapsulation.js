@@ -1,10 +1,10 @@
 'use strict';
 
 class Car {
-    #brand = '';
-    #model = '';
-    #year = '';
-    #color = '';
+    #brand;
+    #model;
+    #year;
+    #color;
 
     constructor(brand, model, year, color) {
         this.#brand = brand;
