@@ -1,6 +1,6 @@
-'use strict'
+'use strict';
 
-class car {
+class Car {
     constructor(brand, model, year, color) {
         this.brand = brand;
         this.model = model;
@@ -13,5 +13,5 @@ class car {
     }
 }
 
-let renaudR5 = new car('renaud', 'R5', '2024', 'black');
+let renaudR5 = new Car('renaud', 'R5', '2024', 'black');
 renaudR5.showDetails();
